@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:custom="http://schemas.android.com/apk/res/com.bikehubz.android" >
+	    <ImageView
+	            android:id="@+id/profile_pic"
+	            android:layout_height="77dp"
+	            android:layout_width="70dp"
+	            android:layout_alignParentLeft="true"
+	            android:layout_marginLeft = "10dp"
+	            android:layout_centerVertical="true"
+	            android:src="@drawable/selected_badge" />
+	    <com.bikehubz.android.widgets.FontTextView
+	            android:id="@+id/user_tagline"
+	            custom:customFont="Amatic-Bold.ttf"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_toRightOf="@id/profile_pic"
+	            android:layout_alignParentBottom="true"
+	            android:layout_marginBottom="8dp"
+	            android:textColor="#222"
+	            android:textSize="20sp"
+	            android:text=""
+	            android:layout_marginLeft="10dp" />
+	    <com.bikehubz.android.widgets.FontTextView
+	            android:id="@+id/user_name"
+	            custom:customFont="Amatic-Bold.ttf"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_toRightOf="@id/profile_pic"
+	            android:layout_above="@id/user_tagline"
+	            android:layout_marginBottom="-5dp"
+	            android:textColor="#222"
+	            android:textSize="26sp"
+	            android:text=""
+	            android:layout_marginLeft="10dp" />
+	    <com.bikehubz.android.widgets.WingedMilesView 
+	        android:id="@+id/miles"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:layout_marginRight="7dp"/>
+     
+</merge>

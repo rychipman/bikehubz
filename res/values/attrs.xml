@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FontTextView">
+        <attr name="customFont" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="HomescreenHeaderView">
+        <attr name="name" format="string" />
+        <attr name="tagline" format="color" />
+    </declare-styleable>
+    
+    <declare-styleable name="HomescreenBadgeView">
+    </declare-styleable>
+    
+    <declare-styleable name="HomescreenStationView">
+        <attr name="titleText" format="string" localization="suggested" />
+        <attr name="valueColor2" format="color" />
+    </declare-styleable>
+    
+    <declare-styleable name="HomescreenStationDetailView">
+        <attr name="titleText3" format="string" localization="suggested" />
+        <attr name="valueColor3" format="color" />
+    </declare-styleable>
+    
+    <declare-styleable name="HomescreenStationMetaView">
+        <attr name="titleText4" format="string" localization="suggested" />
+        <attr name="valueColor4" format="color" />
+    </declare-styleable>
+    
+    <declare-styleable name="HomescreenNewsfeedView">
+        <attr name="titleText5" format="string" localization="suggested" />
+        <attr name="valueColor5" format="color" />
+    </declare-styleable>
+    
+    <declare-styleable name="WingedMilesView">
+    </declare-styleable>
+    
+    <declare-styleable name="RackAvailabilityView">
+    </declare-styleable>
+</resources>

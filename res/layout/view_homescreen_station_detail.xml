@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.bikehubz.android"
+    android:background="@drawable/background_tan" >
+
+    <ImageView
+        android:id="@+id/station_icon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/station"
+        android:layout_marginLeft="10dp" />
+
+    <com.bikehubz.android.widgets.FontTextView
+        android:id="@+id/station_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@id/station_icon"
+        android:text="5 Bikes\n25 Racks\n30 Friends"
+        android:textColor="#222"
+        android:textSize="20sp"
+        custom:customFont="Amatic-Bold.ttf" />
+
+    <com.bikehubz.android.widgets.RackAvailabilityView
+        android:layout_width="wrap_content"
+        android:layout_height="107dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@id/station_data" />
+
+</merge>

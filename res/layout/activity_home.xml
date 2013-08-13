@@ -1,0 +1,38 @@
+<!-- screen sizes add up to ~640 dp -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_plaster"
+	android:orientation="vertical"
+    tools:context=".HomeActivity" >
+	
+    <com.bikehubz.android.widgets.HomescreenHeaderView
+		style = "@style/homeBlock"
+		android:id="@+id/home_header"
+		android:layout_height="100dp"
+        android:background="@drawable/background_tan" />
+
+    <com.bikehubz.android.widgets.HomescreenBadgeView
+        android:layout_height ="150dp"
+        android:id="@+id/home_badges"
+        android:layout_width="wrap_content"
+        android:background="@drawable/background_tan"
+        android:layout_marginTop="10dp"/>
+	
+    <com.bikehubz.android.widgets.HomescreenStationView
+        android:id="@+id/home_stations"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:orientation="vertical"/>
+		
+	<com.bikehubz.android.widgets.HomescreenNewsfeedView
+	    style = "@style/homeBlock"
+        android:id="@+id/home_newsfeed"
+        android:layout_height ="70dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/background_tan"/>
+
+</LinearLayout>
